@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7480C7512609615D00A18477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480C7502609615D00A18477 /* AppDelegate.swift */; };
+		7480C7532609615D00A18477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480C7522609615D00A18477 /* SceneDelegate.swift */; };
+		7480C7552609615D00A18477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480C7542609615D00A18477 /* ViewController.swift */; };
+		7480C7582609615D00A18477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7480C7562609615D00A18477 /* Main.storyboard */; };
+		7480C75B2609615D00A18477 /* Scrabble_Cheating_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7480C7592609615D00A18477 /* Scrabble_Cheating_app.xcdatamodeld */; };
+		7480C75D2609615F00A18477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7480C75C2609615F00A18477 /* Assets.xcassets */; };
+		7480C7602609615F00A18477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7480C75E2609615F00A18477 /* LaunchScreen.storyboard */; };
+		7480C76B2609619D00A18477 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480C76A2609619D00A18477 /* Bag.swift */; };
+		7480C770260AEBB400A18477 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480C76F260AEBB400A18477 /* Network.swift */; };
+		74B4E358260ED1A200F76175 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4E357260ED1A200F76175 /* Trie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7480C74D2609615D00A18477 /* Scrabble Cheating app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrabble Cheating app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7480C7502609615D00A18477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7480C7522609615D00A18477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7480C7542609615D00A18477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7480C7572609615D00A18477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7480C75A2609615D00A18477 /* Scrabble_Cheating_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scrabble_Cheating_app.xcdatamodel; sourceTree = "<group>"; };
+		7480C75C2609615F00A18477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7480C75F2609615F00A18477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7480C7612609615F00A18477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7480C76A2609619D00A18477 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		7480C76F260AEBB400A18477 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		74B4E357260ED1A200F76175 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7480C74A2609615D00A18477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7480C7442609615D00A18477 = {
+			isa = PBXGroup;
+			children = (
+				7480C74F2609615D00A18477 /* Scrabble Cheating app */,
+				7480C74E2609615D00A18477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7480C74E2609615D00A18477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7480C74D2609615D00A18477 /* Scrabble Cheating app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7480C74F2609615D00A18477 /* Scrabble Cheating app */ = {
+			isa = PBXGroup;
+			children = (
+				7480C7692609617F00A18477 /* Model */,
+				7480C773260AEC0000A18477 /* Trie Data Structure */,
+				7480C76E260AEB9100A18477 /* Network Services */,
+				7480C7682609616800A18477 /* Controller */,
+				7480C7502609615D00A18477 /* AppDelegate.swift */,
+				7480C7522609615D00A18477 /* SceneDelegate.swift */,
+				7480C7542609615D00A18477 /* ViewController.swift */,
+				7480C7562609615D00A18477 /* Main.storyboard */,
+				7480C75C2609615F00A18477 /* Assets.xcassets */,
+				7480C75E2609615F00A18477 /* LaunchScreen.storyboard */,
+				7480C7612609615F00A18477 /* Info.plist */,
+				7480C7592609615D00A18477 /* Scrabble_Cheating_app.xcdatamodeld */,
+			);
+			path = "Scrabble Cheating app";
+			sourceTree = "<group>";
+		};
+		7480C7682609616800A18477 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7480C7692609617F00A18477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7480C76A2609619D00A18477 /* Bag.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7480C76E260AEB9100A18477 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				7480C76F260AEBB400A18477 /* Network.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		7480C773260AEC0000A18477 /* Trie Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				74B4E357260ED1A200F76175 /* Trie.swift */,
+			);
+			path = "Trie Data Structure";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7480C74C2609615D00A18477 /* Scrabble Cheating app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7480C7642609615F00A18477 /* Build configuration list for PBXNativeTarget "Scrabble Cheating app" */;
+			buildPhases = (
+				7480C7492609615D00A18477 /* Sources */,
+				7480C74A2609615D00A18477 /* Frameworks */,
+				7480C74B2609615D00A18477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scrabble Cheating app";
+			productName = "Scrabble Cheating app";
+			productReference = 7480C74D2609615D00A18477 /* Scrabble Cheating app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7480C7452609615D00A18477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7480C74C2609615D00A18477 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7480C7482609615D00A18477 /* Build configuration list for PBXProject "Scrabble Cheating app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7480C7442609615D00A18477;
+			productRefGroup = 7480C74E2609615D00A18477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7480C74C2609615D00A18477 /* Scrabble Cheating app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7480C74B2609615D00A18477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7480C7602609615F00A18477 /* LaunchScreen.storyboard in Resources */,
+				7480C75D2609615F00A18477 /* Assets.xcassets in Resources */,
+				7480C7582609615D00A18477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7480C7492609615D00A18477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7480C76B2609619D00A18477 /* Bag.swift in Sources */,
+				7480C7552609615D00A18477 /* ViewController.swift in Sources */,
+				7480C770260AEBB400A18477 /* Network.swift in Sources */,
+				74B4E358260ED1A200F76175 /* Trie.swift in Sources */,
+				7480C7512609615D00A18477 /* AppDelegate.swift in Sources */,
+				7480C75B2609615D00A18477 /* Scrabble_Cheating_app.xcdatamodeld in Sources */,
+				7480C7532609615D00A18477 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7480C7562609615D00A18477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7480C7572609615D00A18477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7480C75E2609615F00A18477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7480C75F2609615F00A18477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7480C7622609615F00A18477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7480C7632609615F00A18477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7480C7652609615F00A18477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9AUJ4PT8G;
+				INFOPLIST_FILE = "Scrabble Cheating app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plan-B-Softwarehouse.Scrabble-Cheating-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7480C7662609615F00A18477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9AUJ4PT8G;
+				INFOPLIST_FILE = "Scrabble Cheating app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Plan-B-Softwarehouse.Scrabble-Cheating-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7480C7482609615D00A18477 /* Build configuration list for PBXProject "Scrabble Cheating app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7480C7622609615F00A18477 /* Debug */,
+				7480C7632609615F00A18477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7480C7642609615F00A18477 /* Build configuration list for PBXNativeTarget "Scrabble Cheating app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7480C7652609615F00A18477 /* Debug */,
+				7480C7662609615F00A18477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7480C7592609615D00A18477 /* Scrabble_Cheating_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7480C75A2609615D00A18477 /* Scrabble_Cheating_app.xcdatamodel */,
+			);
+			currentVersion = 7480C75A2609615D00A18477 /* Scrabble_Cheating_app.xcdatamodel */;
+			path = Scrabble_Cheating_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7480C7452609615D00A18477 /* Project object */;
+}
